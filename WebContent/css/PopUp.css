@@ -1,0 +1,62 @@
+        .but{
+        background:orange;
+        padding: 5px;
+        border:none;
+        }
+
+        .fad{
+        background:orange;
+        font-family:Franklin Gothic Medium;
+        width: 50%;
+        margin: 2px;
+        padding: 2px;
+        }
+
+        .purchase{
+        background:orange;
+        padding: 5px;
+        border: none;
+        position: absolute;
+        top:75%;left:65%;
+        }
+        
+    	.modal {
+		display: none; 
+		position: fixed; 
+		z-index: 1; 
+		padding: 70px; 
+		left: 0;
+		top: 0;
+		width: 90%; 
+		padding-left:100px;
+		height: 90%; 
+		overflow:auto; 
+		background-color: rgb(0,0,0);
+		background-color: rgba(0,0,0,0.1);	
+		}
+
+		.modal-content {
+		background-color: #fefefe;
+		margin: auto;
+		padding: 20px;
+		border: none;
+		width:40%;
+        height: 79%;
+		background-image: url("images/orange.jpg");			
+		}
+			
+		.close {
+		color: #aaaaaa;
+		float: right;
+		font-size: 50px;
+		font-weight: bold;
+		}
+
+		.close:hover,.close:focus {
+		color: black;
+		text-decoration: none;
+		cursor: pointer;
+		}
+
+		table,td,th{border:1px solid black;}
+		table .tot {background:yellow;}

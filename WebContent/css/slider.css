@@ -1,0 +1,47 @@
+.banner{
+
+	box-shadow: 0px 15px 15px #C7C7C7;
+}
+
+
+.doll {
+	width:100%;
+	padding-left: 67px;
+
+	}
+	.doll .post{
+		width:13%;
+		float: left;
+		margin-right: 3%;
+		padding: 0,0,0,0;
+		transition: 1s;
+	
+	}
+
+		.doll .post img{
+			width: 100%;
+			max-width: 100%;
+			border-radius:4%;
+			box-shadow: 0px 15px 15px #C7C7C7;
+		}
+
+		.newhover img:hover
+		{
+			transform: scale(0.9);
+			transition: all 800ms;
+		}
+
+		.newhover h3:hover
+		{
+			transform: scale(0.9);
+			transition: all 800ms;
+		}
+
+	.title{
+		font-size: 1em;
+		font-family:"Poppins", sans-serif;
+		margin: 0 0 100 0 ;
+		font-weight: bold;
+	 	color: #DC143C ;
+	 	text-align: center;
+	}
